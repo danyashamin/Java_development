@@ -1,8 +1,7 @@
-public class ProgramImport{
-    String stroka;
-    Integer chislo;
-    ProgramImport(String stroka, Integer chislo){
-        this.stroka = stroka;
-        this.chislo = chislo;
+class ProgramImport{
+    String oneConstant;
+    public ProgramImport(String oneConstant){
+        this.oneConstant = oneConstant;
+        System.out.println("Сработало!");
     }
 }

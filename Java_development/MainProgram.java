@@ -5,6 +5,6 @@ public class MainProgram {
         System.out.println("He is "+cacadu.age+" years old");
         Integer agePlus = cacadu.age+1;
         System.out.println("He will "+agePlus+" years old year later");
-        System.out.println("Add code on GitHub")
+        System.out.println("Add code on GitHub");
     }
 }

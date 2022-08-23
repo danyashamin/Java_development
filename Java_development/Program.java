@@ -1,7 +1,6 @@
-public class ProgramMain {
+public class Program {
     public static void main(String[] args){
-        short a = 1;
-        Integer b = a+1;
+        float a = 8.5F;
         System.out.println(a);
     }
 }

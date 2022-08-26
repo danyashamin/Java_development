@@ -5,6 +5,6 @@ class Dog {
    public Dog(String poroda, Integer age, String color){
     this.poroda = poroda;
     this.age = age;
-    this.color = color
+    this.color = color;
    }
 }

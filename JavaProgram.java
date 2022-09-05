@@ -7,5 +7,6 @@ public class JavaProgram{
         Integer b = 3;
         boolean condition = a == b;
         System.out.println(condition);
+        String fileName = "zip_file_lwjgl";
     }
 }

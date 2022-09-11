@@ -1,13 +1,18 @@
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class JavaProgram{
     public static void main(String[] args){
-        File fileDir = new File("PATH_TO_FILE");
-        BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(fileDir), "UTF-8"));
-        String str;
+        function();
+    }
+    public static void function(){
+        Integer constant = 4;
+        for (int i = 0; i<5; i++){
+            Scanner in = new Scanner(System.in);
+            Integer inInteger = in.nextInt();
+            System.out.println(inInteger.equals(constant));
+            if (inInteger.equals(constant)){
+                break;
+            }
+        }
     }
 }
